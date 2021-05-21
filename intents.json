@@ -23,13 +23,15 @@
         },
         {"tag": "Science",
          "patterns": ["I need help with Science", "Can you help me with Science?", "Science?"],
-         "responses": ["This website can help with whatever your working on, "]
-        }
-        
+         "responses": ["This Science website can help with whatever your working on, "]
         },
         {"tag": "preal",
          "patterns": ["I need help with Pre Algebra", "Can you help me with Pre-Algebra?", "Pre-Algebra?"],
-         "responses": ["This website can help with whatever your working on, "]
+         "responses": ["This Pre-Algebra website can help with whatever your working on, "]
+        },
+        {"tag": "algebra",
+         "patterns": ["I need help with Algebra", "Can you help me with Algebra?", "Algebra?"],
+         "responses": ["This Algebra website can help with whatever your working on, "]
         }
          
    ]
