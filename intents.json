@@ -48,7 +48,12 @@
         {"tag": "writing",
          "patterns": ["Writing?", "Can you help me with writing?", "I need help with writing."],
          "responses": ["These writing strategies might help, https://bit.ly/3wu0r9w"]
+        },
+        {"tag": "writing",
+         "patterns": ["Writing?", "Can you help me with writing?", "I need help with writing."],
+         "responses": ["These writing strategies might help, https://bit.ly/3wu0r9w"]
         }
+        
          
    ]
 }
