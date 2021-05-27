@@ -13,29 +13,33 @@
          "patterns": ["Thanks", "Thank you", "That's helpful"],
          "responses": ["Happy to help!", "Any time!", "My pleasure"]
         },
-        {"tag": "LA",
-         "patterns": ["I need help with Language Arts.", "Can you help me with Language Arts?", "Langauge Arts?" ],
-         "responses": ["Sure I can help you with that, try this,"]
+        {"tag": "la",
+         "patterns": ["I need help with Language Arts.", "Can you help me with Language Arts?", "Langauge Arts?", "I need help with LA", "LA?", "Can you help me with la?" ],
+         "responses": ["What part of Language Arts do you need help with? I can help you with reading or writing."]
         },
-        {"tag": "Math",
+        {"tag": "math",
          "patterns": ["I need help with Math", "Can you help me with Math?", "Math?" ],
          "responses": ["Do you need help with Pre-Algebra or do you need help with Algebra?"]
         },
-        {"tag": "Science",
+        {"tag": "science",
          "patterns": ["I need help with Science", "Can you help me with Science?", "Science?"],
          "responses": ["This Science website can help with whatever your working on, "]
         },
         {"tag": "preal",
          "patterns": ["I need help with Pre Algebra", "Can you help me with Pre-Algebra?", "Pre-Algebra?"],
-         "responses": ["This Pre-Algebra website can help with whatever your working on, "]
+         "responses": ["This Pre-Algebra website can help with whatever your working on, https://bit.ly/2RG6ol3"]
         },
         {"tag": "algebra",
          "patterns": ["I need help with Algebra", "Can you help me with Algebra?", "Algebra?"],
-         "responses": ["This Algebra website can help with whatever your working on, "]
+         "responses": ["I think that Khan may be able to help you with that, https://bit.ly/2RH7fSB"]
         },
         {"tag": "name",
          "patterns": ["Whats your name?", "Who are you?"],
          "responses": ["I'm SchoolBot!", "I am S.C.H.O.O.L.B.O.T. a secret government program to make 7th graders smarter!"]
+        },
+        {"tag": "reading,
+         "patterns": ["Reading?", "Can you help me with reading?", "I need help with reading."],
+         "responses": ["Sure, here is a great list of books for you to use, https://bit.ly/3fSvnJK and here are some reading strategies, https://bit.ly/2QVsHCH"]
         }
          
    ]
