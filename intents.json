@@ -56,6 +56,10 @@
         {"tag": "tests",
          "patterns": ["I need help with some tests", "Can you help me with Standardized Tests? ", "I need help with Tests.", "I need help with the PSSA's"],
          "responses": ["Here is some PSSA practice for you, https://bit.ly/3yBAGGd"]
+        },
+        {"tag": "Help",
+         "patterns": ["I need help.", "Can you help me? ", "What can you help me with?"],
+         "responses": ["I can help you with Science, Social Studies, Langauge Arts, PSSA testing, and math."]
         }
         
          
