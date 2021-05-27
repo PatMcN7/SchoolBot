@@ -43,7 +43,7 @@
         }
         {"tag": "ok",
          "patterns": ["ok", "Okay", "OK"],
-         "responses": [""]
+         "responses": ["Yep", "mhm"]
         }
          
    ]
