@@ -37,7 +37,7 @@
          "patterns": ["Whats your name?", "Who are you?"],
          "responses": ["I'm SchoolBot!", "I am S.C.H.O.O.L.B.O.T. a secret government program to make 7th graders smarter!"]
         },
-        {"tag": "reading,
+        {"tag": "reading,"
          "patterns": ["Reading?", "Can you help me with reading?", "I need help with reading."],
          "responses": ["Sure, here is a great list of books for you to use, https://bit.ly/3fSvnJK and here are some reading strategies, https://bit.ly/2QVsHCH"]
         }
