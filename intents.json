@@ -49,9 +49,13 @@
          "patterns": ["Writing?", "Can you help me with writing?", "I need help with writing."],
          "responses": ["These writing strategies might help, https://bit.ly/3wu0r9w"]
         },
-        {"tag": "writing",
-         "patterns": ["Writing?", "Can you help me with writing?", "I need help with writing."],
-         "responses": ["These writing strategies might help, https://bit.ly/3wu0r9w"]
+        {"tag": "ss",
+         "patterns": ["Social Studies?", "Can you help me with Social Studies?", "I need help with Social Studies."],
+         "responses": ["This Social Studies website helped me a lot, https://www.ducksters.com/"]
+        },
+        {"tag": "tests",
+         "patterns": ["I need help with some tests", "Can you help me with Standardized Tests? ", "I need help with Tests.", "I need help with the PSSA's"],
+         "responses": ["Here is some PSSA practice for you, https://bit.ly/3yBAGGd"]
         }
         
          
