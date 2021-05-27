@@ -23,7 +23,7 @@
         },
         {"tag": "science",
          "patterns": ["I need help with Science", "Can you help me with Science?", "Science?"],
-         "responses": ["This Science website can help with whatever your working on, "]
+         "responses": ["This Science website can help with whatever your working on, https://bit.ly/3fNha0S "]
         },
         {"tag": "preal",
          "patterns": ["I need help with Pre Algebra", "Can you help me with Pre-Algebra?", "Pre-Algebra?"],
