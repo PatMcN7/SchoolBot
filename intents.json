@@ -41,6 +41,10 @@
          "patterns": ["Reading?", "Can you help me with reading?", "I need help with reading."],
          "responses": ["Sure, here is a great list of books for you to use, https://bit.ly/3fSvnJK and here are some reading strategies, https://bit.ly/2QVsHCH"]
         }
+        {"tag": "ok",
+         "patterns": ["ok", "Okay", "OK"],
+         "responses": ["Yep"]
+        }
          
    ]
 }
