@@ -34,7 +34,7 @@
          "responses": ["This Algebra website can help with whatever your working on, "]
         },
         {"tag": "name",
-         "patterns": ["Whats your name?", "Who are you?",],
+         "patterns": ["Whats your name?", "Who are you?"],
          "responses": ["I'm SchoolBot!", "I am S.C.H.O.O.L.B.O.T. a secret government program to make 7th graders smarter!"]
         }
          
