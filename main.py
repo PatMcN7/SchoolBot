@@ -1,4 +1,4 @@
-
+#imports libraries
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
@@ -9,12 +9,12 @@ import tensorflow
 import random
 import json
 
-
+#opens the JSON file
 with open("intents.json") as file:
     data = json.load(file)
 
 
-
+#extracting data from JSON file
 words = []
 labels = []
 docs_x = []
@@ -29,12 +29,12 @@ for intent in data["intents"]:
 
     if intent["tag"] not in labels:
         labels.append(intent["tag"])
-
+#finds the stem of the words
 words = [stemmer.stem(w.lower()) for w in words if w != "?"]
 words = sorted(list(set(words)))
 
 labels = sorted(labels)
-
+#makes a "Bag of Words"
 training = []
 output = []
 
@@ -57,12 +57,12 @@ for x, doc in enumerate(docs_x):
     training.append(bag)
     output.append(output_row)
 
-
+#puts data into numpy arrays
 training = numpy.array(training)
 output = numpy.array(output)
 
 
-
+#trains the model with 2 middle layers with 8 nodes also defines the activation and loss function
 net = tflearn.input_data(shape=[None, len(training[0])])
 net = tflearn.fully_connected(net, 8)
 net = tflearn.fully_connected(net, 8)
@@ -70,7 +70,7 @@ net = tflearn.fully_connected(net, len(output[0]), activation="softmax")
 net = tflearn.regression(net)
 
 model = tflearn.DNN(net)
-
+#epochs + batch size and saving model
 model.fit(training, output, n_epoch=1000, batch_size=8, show_metric=True)
 model.save("model.tflearn")
 
