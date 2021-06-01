@@ -60,6 +60,10 @@
         {"tag": "Help",
          "patterns": ["I need help.", "Can you help me? ", "What can you help me with?"],
          "responses": ["I can help you with Science, Social Studies, Langauge Arts, PSSA testing, and math."]
+        },
+        {"tag": "cool",
+         "patterns": ["Cool!", "cool ", "Cool"],
+         "responses": ["yep"]
         }
         
          
