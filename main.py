@@ -64,8 +64,8 @@ output = numpy.array(output)
 
 #trains the model with 2 middle layers with 8 nodes also defines the activation and loss function
 net = tflearn.input_data(shape=[None, len(training[0])])
-net = tflearn.fully_connected(net, 8)
-net = tflearn.fully_connected(net, 8)
+net = tflearn.fully_connected(net, 16)
+net = tflearn.fully_connected(net, 16)
 net = tflearn.fully_connected(net, len(output[0]), activation="softmax")
 net = tflearn.regression(net)
 
