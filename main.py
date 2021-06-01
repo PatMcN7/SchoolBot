@@ -74,7 +74,7 @@ model = tflearn.DNN(net)
 model.fit(training, output, n_epoch=1000, batch_size=8, show_metric=True)
 model.save("model.tflearn")
 
-
+#bag of words function
 def bag_of_words(s, words):
     bag = [0 for _ in range(len(words))]
 
@@ -88,7 +88,7 @@ def bag_of_words(s, words):
             
     return numpy.array(bag)
 
-
+#chat function that takes input and takes the approprate response from the intents.json file.
 def chat():
     print("Start talking with SchoolBot (type quit to stop)!")
     while True:
