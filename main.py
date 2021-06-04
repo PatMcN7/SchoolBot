@@ -88,11 +88,13 @@ def bag_of_words(s, words):
             
     return numpy.array(bag)
 
+op = input("What is your name?  ")
+
 #chat function that takes input and takes the approprate response from the intents.json file.
 def chat():
     print("Start talking with SchoolBot (type quit to stop)!")
     while True:
-        inp = input("You: ")
+        inp = input(op + ': ')
         if inp.lower() == "quit":
             break
 
